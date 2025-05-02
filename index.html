@@ -1,44 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1{color:black}
-        h2{color:black}
-        h3{color:black}
-        img {width: 100%;}
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Johnny Johnny Bakery</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Georgia, serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .header-bar {
+      background-color: mediumaquamarine;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-bar img {
+      height: 60px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      font-weight: bold;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .title {
+      text-align: center;
+      background-color: #f5dec7;
+      padding: 20px;
+    }
+
+    .title h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .title h2 {
+      margin: 10px 0;
+      font-size: 32px;
+    }
+
+    .main-content {
+      background-color: #f5dec7;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px 0px;
+      flex-grow: 1;
+    }
+
+    .main-content img {
+      width: 200px;
+      height: auto;
+      margin: 10px 0px;
+    }
+
+    .lyrics {
+      text-align: center;
+      font-size: 16px;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    .footer {
+      background-color: #8ee7f1;
+      padding: 15px 20px;
+      font-size: 12px;
+    }
+
+    .footer a {
+      display: block;
+      text-decoration: none;
+      color: black;
+      margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
-<body style="height: max-content;">
-<div>
-    <img src="cake1.avif" alt="Cake (Red velvet)" style="width:16%" style="height:20p%">
-    <img src="sandwich.avif" alt="Deli food (Meats, cheese and olives)" style="width:16%" style="height:20px%">>
-<div>img src="html5.gif" alt="HTML5 Icon" width="128" height="128"></div>
-    <article style="background-color: aquamarine;">
-        <header>
-          <h1>JOHNNY JOHNNY BAKERY, CAFE & DELI</h1>
-          <h2>YES PAPA</h2>
-          <h3>HOME</h3>
-          <p>
-            Johnny, Johnny
-            Yes, papa?
-            Eating sugar?
-            No, papa.
-            Telling lies?
-            No, papa.
-            Open your mouth!
-            Ha! Ha! Ha!
-          </p>
-        </header>
-        <p>Lorem Ipsum dolor set amet....</p>
-    </article>
-    <footer style="margin-bottom: 0px;">
-        <p>Author: Hege Refsnes</p>
-        <p><a href="/termsandconditions">TERMS AND CONDITIONS</a></p>
-        <p><a href="/privacyandcookiepolicy">PRIVACY AND COOKIE POLICY<a><p>
-        <p><a href="/sitemap">SITE MAP</a></p>
-    </footer>
+<body>
+
+  <div class="header-bar">
+    <img src="papa2.PNG" alt="Papa logo">
+    <div class="nav-links">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">MENU</a>
+      <a href="#">CAREERS</a>
+      <a href="#">CONTACT US</a>
+    </div>
+  </div>
+
+  <div class="title">
+    <h1>JOHNNY JOHNNY BAKERY, CAFE & DELI (LIGHT MEAL RESTAURANT)</h1>
+    <h2>YES PAPA</h2>
+  </div>
+
+  <div class="main-content">
+    <img src="redvelvetcakestvertical.PNG" alt="Cake (Red velvet)">
+    <div class="lyrics">
+      <h3>HOME</h3>
+      <p>Johnny, Johnny<br>Yes, Papa?<br>Eating sugar?<br>No, Papa.<br>Telling lies?<br>No, Papa.<br>Open your mouth!<br>Ha! Ha! Ha!</p>
+    </div>
+    <img src="sandwichvertical.PNG" alt="Deli food (Meats, lettuce and cheese)">
+  </div>
+
+  <div class="footer">
+    <a href="/termsandconditions">TERMS AND CONDITIONS</a>
+    <a href="/privacyandcookiepolicy">PRIVACY AND COOKIE POLICY</a>
+    <a href="/sitemap">SITE MAP</a>
+  </div>
+
 </body>
 </html>
