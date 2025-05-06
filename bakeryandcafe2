@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YES PAPA - Johnny Johnny Bakery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #fce2bb;
+    }
+
+    header {
+      background-color: #76d6be;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: darkgreen;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .main-title {
+      text-align: center;
+      font-size: 20px;
+      margin: 20px;
+      font-weight: bold;
+    }
+
+    .sub-title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .about-section {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .about-section h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .about-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 10px 40px;
+    }
+
+    .about-image {
+      width: 180px;
+      height: auto;
+      border: 3px solid #a45d5d;
+    }
+
+    .about-text {
+      max-width: 500px;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #82e6f1;
+      text-align: left;
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+
+    footer a {
+      display: block;
+      color: black;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Yes Papa Logo" class="logo">
+    </div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">MENU</a>
+      <a href="#">CAREERS</a>
+      <a href="#">CONTACT US</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="main-title">JOHNNY JOHNNY BAKERY, CAFE & DELI (LIGHT MEAL RESTAURANT)</h1>
+    <h2 class="sub-title">YES PAPA</h2>
+
+    <section class="about-section">
+      <h3>ABOUT US</h3>
+      <div class="about-content">
+        <img src="cake.jpg" alt="Cake" class="about-image">
+        <p class="about-text">
+          The "Johnny Johnny Yes Papa" story is a simple, well-known English-language nursery rhyme and children's song.
+          It follows a basic call-and-response structure between a child (Johnny) and a parent (usually the father, “Papa”).
+          The story’s meaning and context goes like this:<br><br>
+          • Johnny is a mischievous little boy.<br>
+          • Papa suspects Johnny is doing something he’s not supposed to (e.g., eating sugar).<br>
+          • Johnny denies it.<br>
+          • When Papa asks him to "open his mouth," Johnny laughs—implying he was indeed sneaking sugar and got caught.
+        </p>
+        <img src="sandwiches.jpg" alt="Sandwiches" class="about-image">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#">TERMS AND CONDITIONS</a>
+    <a href="#">PRIVACY AND COOKIE POLICY</a>
+    <a href="#">SITE MAP</a>
+  </footer>
+
+</body>
+</html>
